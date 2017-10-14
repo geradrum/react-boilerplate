@@ -28,7 +28,7 @@ const config = {
             use: 'babel-loader'
           },
           {
-            test: /\.scss$/,
+            test: /\.(css|scss|sass)$/,
             use: ExtractTextPlugin.extract({
               fallback: 'style-loader',
               use: [
@@ -39,7 +39,7 @@ const config = {
             })
           },
           {
-            test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)(\?.*$|$)/,
+            test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot|mp3|wav)(\?.*$|$)/,
             use: 'file-loader'
           }
         ]

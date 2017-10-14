@@ -10,6 +10,7 @@
   "author": "geradrum <gera.96@icloud.com>",
   "license": "MIT",
   "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-router-dom": "^4.2.2"
